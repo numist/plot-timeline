@@ -1,9 +1,8 @@
 Scott Perry <dev@numist.net>
-   PHP logger code, drawing code
+   Code
 
 Paul Knight <paulymer5@gmail.com>
-   Feature ideas, testing, feedback
+   Feature ideas, testing
 
 Federico Mena-Quintero <federico@novell.com>
-   Original idea and implementation for C with strace
-
+   Idea and implementation (for C) using strace
