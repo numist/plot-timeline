@@ -1,0 +1,7 @@
+Please see the README.php document, as this document is deprecated.
+
+Some folks learn better from looking at code in the wild, instead of reading
+docs.  I understand, it's the same with me.  Why don't you look at the tests/
+directory, and run driver.php or functest.php from there to see how the whole
+thing works, instead of reading these stupid docs?  (make sure your CWD is
+tests when you run them)
