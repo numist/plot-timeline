@@ -1,4 +1,4 @@
-This file is made to take advantage of PHP syntax hilighting. :) <?php/*
+This file is written to take benefit from PHP syntax highlighting. <?php/*
 
 plot-timeline PHP Execution Plotter
 Copyright 2006 - 2007 Scott Perry, Creative Common ShareAlike 2.5 License
@@ -9,10 +9,10 @@ QUICKSTART:
 
 To create plotter data directly from within your script:
 
-1. ensure that plot-timeline.phpis in your include path.
+1. ensure that plot-timeline.php is in your include path.
 
 ******************************/
-$path = './plot-timeline';
+$path = './plot-timeline/src';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
 /******************************
 * if you want to get really fancy, write a pathmunge() function, or get mine
