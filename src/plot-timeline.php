@@ -10,11 +10,10 @@
  *
  * NOTE:
  * rendering to an image can be very memory and time intensive, so rendering as part of the script
- * being profiled or rendering large datasets is not advocated unless you have the time and memory
+ * being profiled or rendering large datasets is not advised unless you have the time and memory
  * to burn.
  */
 
-// TODO: I can probably be more specific about the version.  later.
 $version = explode(".", PHP_VERSION);
 $version = (int)array_shift($version);
 if($version < 5) {
