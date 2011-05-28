@@ -927,7 +927,7 @@ class plot_timeline {
 }
 
 // include argv if we were called directly
-if(basename($argv[0]) == basename(__FILE__)) {
+if(isset($argv) && basename($argv[0]) == basename(__FILE__)) {
    $p = new plot_timeline();
    plot_timeline::req($argv[1]);
    $p->saveData('data.txt');
