@@ -35,7 +35,7 @@ class Timer {
 	private $stop;
 
 	/* initialization/timer start methods */
-	function __construct($startedat=null) {
+	function Timer($startedat=null) {
 		if($startedat === null) {
 			// we'll accept no argument, in which case the timer starts now
 			$this->start();
@@ -125,7 +125,7 @@ class plot_timeline {
 	
 	private $stack = array(0);
 	
-	function __construct() {
+	function plot_timeline() {
 		$this->plog = array();
 		$this->enabled = true;
 		$this->timer = null;
